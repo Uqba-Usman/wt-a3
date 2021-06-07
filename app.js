@@ -40,7 +40,7 @@ app.use(function (err, req, res, next) {
 });
 
 mongoose
-  .connect("mongodb://localhost/faculty", {
+  .connect("mongodb+srv://uqba:1234@cluster0.aynup.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 
