@@ -1,2 +1,2 @@
-# WT-A3
- Assignment 3 WEB
+# wt-a3
+ Web Assignment
