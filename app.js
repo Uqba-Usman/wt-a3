@@ -40,12 +40,15 @@ app.use(function (err, req, res, next) {
 });
 
 mongoose
-  .connect("mongodb+srv://uqba:1234@cluster0.aynup.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
+  .connect(
+    "mongodb+srv://uqba:1234@cluster0.aynup.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
 
-    // rejectUnauthorized: false,
-  })
+      // rejectUnauthorized: false,
+    }
+  )
   .then(() => {
     // winston.info(`Connected to ${db}...`);
     // console.clear();
@@ -53,5 +56,5 @@ mongoose
 
     // testCalculation();
   });
-
+z;
 module.exports = app;
